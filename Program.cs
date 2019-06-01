@@ -8,12 +8,7 @@ namespace GraMonolitycznie
 {
     class Program
     {
-        /// <summary>
-        /// Generuje liczbę pseudolosową z podanego zakresu, włącznie z krańcami
-        /// </summary>
-        /// <param name="a"></param>
-        /// <param name="b"></param>
-        /// <returns></returns>
+        
         static int Losuj(int a = 1, int b = 100)
         {
             if( a > b )
